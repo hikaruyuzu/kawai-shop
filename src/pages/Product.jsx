@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Newsletters from '../components/Newsletters'
 import Products from '../components/Products'
+import { mobile } from '../responsive'
 
 const Container = styled.div`
 `
@@ -14,6 +15,8 @@ const Container = styled.div`
 const Wrapper = styled.div`
     display: flex;
     padding: 50px;
+    ${mobile({padding: "10px", flexDirection: "column"})}
+
 
 `
 const ImageContainer = styled.div`
@@ -24,23 +27,30 @@ const Image = styled.img`
     width: 100%;
     height: 90vh;
     object-fit: cover;
+    ${mobile({height: "40vh"})}
+
 
 `
 const InfoContainer = styled.div`
     flex: 1;
     padding: 0px 50px;
+    ${mobile({padding: "10px"})}
+
     
 
 `
 const Title = styled.h1`
     font-weight: 500;
+    ${mobile({fontWeight: "300", fontSize: "30px"})}
+
+    
 
 `
 
 const SubTitle = styled.p `
     margin-top: 5px;
     color: #919090;
-     font-size: 14px;
+    font-size: 14px;
 
 `
 const Desc = styled.p`
@@ -99,6 +109,8 @@ const AddContainer = styled.div`
     align-items: center;
     width: 50%;
     padding: 20px 0px;
+    ${mobile({width: "100%"})}
+
     
 
 `
@@ -132,6 +144,8 @@ const Release = styled.div`
 const ButtonContainer = styled.div`
     padding-top: 20px;
     display: flex;
+    ${mobile({width: "100%"})}
+
 
 `
 const ButtonLeft = styled.button`
@@ -150,7 +164,10 @@ const ButtonLeft = styled.button`
         background-color: #de2702;
         transition: all 0.3s ease;
         color: #fff;
+
     }
+    ${mobile({padding: "10px 20px"})}
+
 
 
 `

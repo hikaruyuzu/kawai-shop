@@ -5,12 +5,15 @@ import styled from 'styled-components'
 import Annonuncement from '../components/Annonuncement'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import { mobile } from '../responsive'
 
 const Container = styled.div`
 
 `
 const Wrapper = styled.div`
     padding: 20px;
+    ${mobile({padding: "10px"})}
+
 
 `
 
@@ -47,10 +50,14 @@ const TopText = styled.span`
     cursor: pointer;
     margin: 0px 10px;
     font-weight: 400;
+    ${mobile({display: "none"})}
+
 `
 const Bottom = styled.div`
     display: flex;
     justify-content: space-between;
+    ${mobile({flexDirection: "column"})}
+
 `
 
 const Info = styled.div`
@@ -107,6 +114,8 @@ const Button = styled.button`
 const Product = styled.div`
     display: flex;
     justify-content: space-between;
+    ${mobile({flexDirection: "column"})}
+
 
 `
 const ProductDetail = styled.div`
@@ -157,12 +166,16 @@ const ProductAmountContainer = styled.div`
 const ProductAmount = styled.div`
     font-size: 24px;
     margin: 5px;
+    ${mobile({margin: "5px 15px"})}
+
 
 `
 
 const ProductPrice = styled.div`
     font-size: 30px;
     font-weight: 300;
+    ${mobile({marginBottom: "20px"})}
+
 `
 
 const LineArt = styled.hr`
@@ -193,11 +206,11 @@ const Cart = () => {
                         <Info>
                             <Product>
                                 <ProductDetail>
-                                    <Image src="https://cdn.kyou.id/items/91015-nendoroid-doll-kaguya-shinomiya.jpg.webp"/>
+                                    <Image src="https://cdn.kyou.id/items/43225-pvc-figure-17-megumi-kato-first-meeting-outfit-ver.jpg.webp"/>
                                     <Details>
-                                        <ProductName><b>Product : </b>Nendoroid Doll Kaguya Shinomiya</ProductName>
-                                        <ProductCharacter><b>Character</b> : Kaguya Shinomiya</ProductCharacter>
-                                        <ProductSeries><b>Series</b> : kaguya sama wa kokurasetai</ProductSeries>
+                                        <ProductName><b>Product : </b>PVC Figure 1/7 Megumi Kato - First Meeting Outfit Ver.</ProductName>
+                                        <ProductCharacter><b>Character</b> : Kato Megumi</ProductCharacter>
+                                        <ProductSeries><b>Series</b> : Saenai Heroine no Sodatekata</ProductSeries>
                                         <ProductId><b>ID : </b>0051252125</ProductId>
 
                                     </Details>
