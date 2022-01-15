@@ -12,16 +12,16 @@ export const sliderItems = [
         id: 2,
         image:"https://freepngimg.com/thumb/anime/31520-3-hyouka-free-download.png",
         title: "SUMMER SALE",
-        desc: "SHOPPING FOR ORIGINAL ACTION FIGURES IS THAT EASY? GET FLAT 40% OFF FOR NEW ARRIVALS.",
+        desc: "SHOPPING FOR ORIGINAL ACTION FIGURES IS THAT EASY? GET FLAT 50% OFF FOR NEW ARRIVALS.",
         bg: "e9f5f4",
     },
 
     {
         
         id: 3,
-        image:"https://freepngimg.com/thumb/anime/4-2-anime-transparent.png",
+        image:"https://i.ibb.co/5c3gf2X/saekano-how-to-raise-a-boring-girlfriend-anime-a-1-pictures-manga-d-jin-anime-270de15592509b24adc10d.png",
         title: "POPULAR SALE",
-        desc: "SHOPPING FOR ORIGINAL ACTION FIGURES IS THAT EASY? GET FLAT 40% OFF FOR NEW ARRIVALS.",
+        desc: "SHOPPING FOR ORIGINAL ACTION FIGURES IS THAT EASY? GET FLAT 60% OFF FOR NEW ARRIVALS.",
         bg: "f5eae9",
     },
 
@@ -55,7 +55,7 @@ export const popularProducts = [
 
     {
         id: 1,
-        image:"https://i.im.ge/2021/12/26/XXGZKX.png",
+        image:"https://i.ibb.co/jGH44jn/saekano-how-to-raise-a-boring-girlfriend-kimono-moe-anime-megumi-kato-ab545a415177c78614181594dbd6d5.png",
         
     },
     {   

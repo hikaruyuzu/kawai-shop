@@ -3,6 +3,8 @@ import { Search, ShoppingCartOutlined } from '@material-ui/icons'
 import React from 'react'
 import styled from 'styled-components'
 import { mobile } from '../responsive'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
+import Cart from '../pages/Cart'
 
 const Container = styled.div`
     height: 60px;   
@@ -89,11 +91,11 @@ const Navbar = () => {
                 </Left>
                 <Center><Logo>ARA.</Logo></Center>
                 <Right>
-                    <MenuItem>REGISTER</MenuItem>
-                    <MenuItem>SIGN IN</MenuItem>
+                    <Link to="/login" style={{textDecoration: 'none', color: '#000'}} ><MenuItem >SIGN IN</MenuItem></Link>
+                    <Link to="/register" style={{textDecoration: 'none', color: '#000'}}><MenuItem>REGISTER</MenuItem></Link>
                     <MenuItem>
-                    <Badge badgeContent={4} color="primary">
-                        <ShoppingCartOutlined color="action" />
+                    <Badge badgeContent={2} color="primary">
+                    <Link to="/cart" style={{ textDecoration: 'none', color: '#000' }}><ShoppingCartOutlined color="action" /></Link>
                     </Badge>
                     </MenuItem>
                 </Right>
