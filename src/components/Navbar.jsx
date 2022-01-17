@@ -65,7 +65,7 @@ const Right = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    ${mobile({justifyContent: "center", flex: "2"})}
+    ${mobile({justifyContent: "center", flex: "3"})}
 
 `
 
@@ -93,6 +93,8 @@ const Navbar = () => {
                 <Right>
                     <Link to="/login" style={{textDecoration: 'none', color: '#000'}} ><MenuItem >SIGN IN</MenuItem></Link>
                     <Link to="/register" style={{textDecoration: 'none', color: '#000'}}><MenuItem>REGISTER</MenuItem></Link>
+                    <Link to="/comments" style={{textDecoration: 'none', color: '#000'}}><MenuItem>COMMENT</MenuItem></Link>
+
                     <MenuItem>
                     <Badge badgeContent={2} color="primary">
                     <Link to="/cart" style={{ textDecoration: 'none', color: '#000' }}><ShoppingCartOutlined color="action" /></Link>

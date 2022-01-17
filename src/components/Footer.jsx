@@ -128,8 +128,8 @@ const Footer = () => {
             </Center>
             <Right>
                 <Title>Contact</Title>
-                <ContactItem><Room style={{marginRight: "10px"}}/>Graha Handaya, Unit Q-S, Jl. Raya Perjuangan No.12A, Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta</ContactItem>
-                <ContactItem><Phone style={{marginRight: "10px"}}/>(021) 53691015 / (021) 80647333</ContactItem>
+                <ContactItem><Room style={{marginRight: "10px"}}/>Jl. Dr. Sutomo No.24, Pati Kidul, Kec. Pati, Kabupaten Pati, Jawa Tengah</ContactItem>
+                <ContactItem><Phone style={{marginRight: "10px"}}/>(021) 53691015 / (0823) 82351252125</ContactItem>
                 <ContactItem><MailOutline style={{marginRight: "10px"}}/>arakawaii@ara.com</ContactItem>
                 <Payment src="https://go.rapyd.net/hubfs/Indonesia-Logos-2.jpg"/>
             </Right>

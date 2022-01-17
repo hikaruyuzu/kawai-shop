@@ -6,6 +6,7 @@ import Catgories from '../components/Categories'
 import Products from '../components/Products'
 import Newsletters from '../components/Newsletters'
 import Footer from '../components/Footer'
+import Copyright from '../components/Copyright'
 
 
 export const Home = () => {
@@ -18,6 +19,8 @@ export const Home = () => {
             <Products/>
             <Newsletters/>
             <Footer/>
+            <Copyright/>
+            
         </div>
     )
 }

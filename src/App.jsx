@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Cart from "./pages/Cart";
+import Comments from './pages/Comments';
 import { Home } from "./pages/Home";
 import Login from "./pages/Login";
 import Product from "./pages/Product";
@@ -12,6 +13,7 @@ const App = () => {
     <Router>
       <Routes>
           <Route exact path="/" element={<Home/>}/>
+          <Route exact path="/comments" element={<Comments/>}/>
           <Route exact path="/login" element={<Login/>}/>
           <Route exact path="/register" element={<Register/>}/>
           <Route exact path="/ProductList" element={<Product/>}/>

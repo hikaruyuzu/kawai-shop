@@ -12,7 +12,7 @@ export const sliderItems = [
         id: 2,
         image:"https://freepngimg.com/thumb/anime/31520-3-hyouka-free-download.png",
         title: "SUMMER SALE",
-        desc: "SHOPPING FOR ORIGINAL ACTION FIGURES IS THAT EASY? GET FLAT 50% OFF FOR NEW ARRIVALS.",
+        desc: "EXCLUSIVE AND LIMITED!”, “NEW ARRIVAL!”, “CURRENT!”, “UNIQUE AND LIMITED EDITION!”, “LATEST!, GET UP TO 60% OFF IN EARLY SUMMER SEASON.",
         bg: "e9f5f4",
     },
 
@@ -21,7 +21,7 @@ export const sliderItems = [
         id: 3,
         image:"https://i.ibb.co/5c3gf2X/saekano-how-to-raise-a-boring-girlfriend-anime-a-1-pictures-manga-d-jin-anime-270de15592509b24adc10d.png",
         title: "POPULAR SALE",
-        desc: "SHOPPING FOR ORIGINAL ACTION FIGURES IS THAT EASY? GET FLAT 60% OFF FOR NEW ARRIVALS.",
+        desc: "GET A DISCOUNT OF UP TO $50 FOR EVERY PURCHASE OF AN MOST POPULAR ACTION FIGURES  DURING THE PERIOD 2 FEBRUARY – 3 MARCH 2022.",
         bg: "f5eae9",
     },
 
@@ -97,4 +97,11 @@ export const popularProducts = [
         image:"https://i.postimg.cc/wx7Gv5xY/imgbin-re-zero-starting-life-in-another-world-anime-r-e-m-isekai-png.png",
     },
 
+]
+
+export const ProfileComments = [
+    {
+        id: 1,
+        image: "https://64.media.tumblr.com/cb9584af16caa6352c036205f39313ea/f17b66b34c0d21bf-58/s540x810/5f9124a09f1869d7dbf09b9458d14b756b0ee6ab.jpg",
+    },
 ]

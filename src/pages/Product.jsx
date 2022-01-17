@@ -1,6 +1,7 @@
 
 import { Add, FavoriteBorderOutlined, Remove } from '@material-ui/icons'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import Annonuncement from '../components/Annonuncement'
 import Footer from '../components/Footer'
@@ -279,8 +280,8 @@ const Product = () => {
                         <Release>Estimated Arrival October-November 2021</Release>
                     </ReleaseContainer>
                     <ButtonContainer>
-                        <ButtonLeft><FavoriteBorderOutlined style={{marginRight: "10px"}}/>Wishlist</ButtonLeft>
-                        <ButtonRight>Add to Cart</ButtonRight>
+                        <ButtonLeft><FavoriteBorderOutlined style={{marginRight: "10px"}}/>Wishlist</ButtonLeft>                     
+                        <ButtonRight><Link to="/cart"style={{textDecoration: 'none', color: "#fff"}}>Add to Cart</Link></ButtonRight>
                     </ButtonContainer>
                     <Line/>
 
